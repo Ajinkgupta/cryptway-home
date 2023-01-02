@@ -21,20 +21,12 @@ const Homepage = () => {
 
 
 <section className="w-full justify-between md:py-6 md:px-14 py-6 px-4 ">
-    <div className="grid max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12">
+    <div className="grid max-w-screen-xl min-w-[90vh] px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl text-white">Modern Decentralized  Application</h1>
+            <h1 className="max-w-2xl mb-4 text-5xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-5xl text-white">Modern Decentralized  Application</h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">"The Modern Crypto Transaction and swapping Platform from one Wallet to Another using Metamask or any wallet "</p>
            
-           <a href="https://app.cryptway.in/">  <button
-              type="button"
-              
-              className="flex px-6 py-2   flex-row justify-center items-center my-5 bg-[#eb056d]  p-3 rounded-3xl  cursor-pointer hover:bg-[#119694]"
-            >
-              <span className="font-poppins font-bold text-lg text-white">
-                Launch App  
-              </span>
-            </button> </a>
+         
            
            
            
