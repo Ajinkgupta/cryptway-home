@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	outline: none
+}
+
+body {
+	background: #130912; 
+	color: white;
+	line-height: 1.5; 
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	position: relative
+} 
+.navigation {
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 15px;
+	height: 60px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 0 10px
+}
+
+.cryptostatscard {background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 10.93%, rgba(255, 255, 255, 0) 90%);
+	border-radius: 15px; 
+	
+	width: 100%;
+color: white;}
