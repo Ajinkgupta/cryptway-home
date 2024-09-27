@@ -9,7 +9,7 @@ const Navbar = () => {
 <Link to="/"> <img  src={logo} alt="logo" className="w-12 h-12 object-contain"  /></Link>
        </div>
     <div class="justify-end">
-    <a href="https://app.cryptway.in/">  <button
+    <a href="https://ethwallet.ajink.tech/">  <button
               type="button"
               
               className="flex px-6 py-2   flex-row justify-center items-center my-5 bg-[#eb056d]  p-3 rounded-3xl  cursor-pointer hover:bg-[#119694]"
